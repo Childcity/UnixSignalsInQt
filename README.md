@@ -5,7 +5,7 @@ If you would like to write any program in Qt/C++, you must:
 - take care of the correct exit from [Qt Event Loop](https://wiki.qt.io/Threads_Events_QObjects);
 - correct release all allocated memory;
 
-If user press Ctrl+C in Terminal or send SIGTERM, you're program will be closed unexpected with error code.
+If user press Ctrl+C in Terminal or send SIGTERM, you're program will be closed unexpectedly with error code.
 
 This realization based on offisial [Qt documentation](https://doc.qt.io/qt-5/unix-signals.html) for solving such kind of problem. 
 Try it and you will see, this is convenient!
